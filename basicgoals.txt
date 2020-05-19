@@ -1,0 +1,11 @@
+in an ideal, perfect world, the system would
+-take and display orders
+-link devices together
+-track time since order creation
+-potential to print if needed (eg if a screen breaks)
+-send orders to where they need to be
+-individually itemise orders to track which items have been delivered
+
+aim of the system:
+-remove paper from the restaurant setting entirely
+-maximise efficiency of order taking and delivery using electronics
