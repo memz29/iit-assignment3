@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IIT-TR2-Handlotion - Project Idea</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <div id="block1">
+        <table>
+          <tr>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href="index.html">Home</a></li>
+              </ul>
+            </th>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href="profile.html">Team profile</a></li>
+              </ul>
+            </th>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href=IndustryData.html>Industry data</a></li>
+              </ul>
+            </th>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href="professionalinterview.html">Interview</a></li>
+              </ul>
+            </th>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href="projectidea.html">Project ideas</a></li>
+              </ul>
+            </th>
+            <th>
+              <ul id="Navbar">
+                <li><a id="navlist" href="newtechnologies.html">IT technologies</a></li>
+              </ul>
+            </th>
+          </tr>
+        </table>
+      </div>
+<h1>Project Idea</h1>
+<p>Some of the 'ideas' we have for things we'd like to do aren't <i>creating our own projects</i>, but usually while we're doing something we'll spot an issue with the system and think of ways to fix it.</p>
+<p>The biggest example of this happens when Evan is at work - he works at an Italian restaurant, and his job is to make all the drinks for dine-in, and all desserts for both dine-in and takeaway. There is a printer in front of him that prints people's drink orders when the waitresses have put them through, and that alone isn't a problem; it works perfectly.</p>
+<p>Unfortunately the printer prints <i>all</i> orders that contain a drink or a dessert, whether it's relevant to his station or not - which means that whenever the printer prints a takeaway order for a bottle of Coke for example, he just takes the docket, sticks it straight onto the spike, and goes back to whatever he was doing. Another problem is that the bar printer also prints dockets containing any 'dummy' items used for price adjustment for UberEats orders, which come to him as nonsense orders (There might be an order of "U" for $0.90, for example).</p>
+<p>He doesn't know who designed the system that decides which items go to which printer but whenever he spikes an order that he doesn't have to do anything with, he dies a little inside, both at the waste of paper and at the inefficiency of whatever database system decides which items get printed where, and he always wants to fix it. To do that, he would have to do the following:
+<ol>
+	<li>Investigate how the system determines what goes where - it's important to note that the bar printer is the only printer that needs changing, as the pizza and kitchen printers need to receive every order for their category regardless.</li>
+	<li>Maybe create some algorithm that uses the combination of the type of item (food, drink, pizza, dessert, etc) and also the eating mode (dine-in, takeaway, UberEats), and prints accordingly - the bar printer should receive only dine-in drink orders, and all dessert orders regardless of eating mode.</li>
+	<li>Perhaps add an extra category called "dummy order" for the dummy price adjustment items that doesn't get printed anywhere.</li>
+	<li>Change and test the system by putting through dummy test orders for:<ul>
+		<li>Every item individually, in both dine-in and takeaway/UE forms</li>
+		<li>Random combinations of items, again in both eat in and eat out modes</li>
+		<li>Dummy price adjusters in some orders, distributed randomly</li>
+		<li>Orders that have had changes made - something added, excluded, or substituted from an order, for all food types (pizza, kitchen food, drinks)</li>
+		</ul></li>
+	<li>Fix any errors if something gets printed to the wrong place or not at all.</li>
+</ol></p>
+<p>As we haven't looked at the way the system currently works, we don't actually know how exactly to accomplish this task, nor will we be able to find out any time soon as the restaurant is mostly closed due to the current lockdown situation in Victoria. Regardless, if this were done it would certainly make Evan's life easier as the printer wouldn't print things he didn't have to worry about, and presumably other restaurants under the same franchise use a similar or identical system, and their systems could be improved too. Depending on how widespread the system is, it could even be used to improve efficiency in other restaurants as well.</p>
+
+</body>
+</html>
