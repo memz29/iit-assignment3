@@ -60,6 +60,18 @@
 	<li>Fix any errors if something gets printed to the wrong place or not at all.</li>
 </ol></p>
 <p>As we haven't looked at the way the system currently works, we don't actually know how exactly to accomplish this task, nor will we be able to find out any time soon as the restaurant is mostly closed due to the current lockdown situation in Victoria. Regardless, if this were done it would certainly make Evan's life easier as the printer wouldn't print things he didn't have to worry about, and presumably other restaurants under the same franchise use a similar or identical system, and their systems could be improved too. Depending on how widespread the system is, it could even be used to improve efficiency in other restaurants as well.</p>
-
+<!-- For every item:
+if (food)
+  print kitchen printer
+else if (pizza)
+  print pizza printer
+else if (dessert)
+  print bar printer
+else if (drink && category = "dine in")
+  print bar printer
+else if (drink && category = "takeaway")
+  print front printer
+else
+  print front printer-->
 </body>
 </html>
