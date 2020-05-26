@@ -9,3 +9,11 @@ in an ideal, perfect world, the system would
 aim of the system:
 -remove paper from the restaurant setting entirely
 -maximise efficiency of order taking and delivery using electronics
+
+
+project tasks:
+-Someone needs to go through every page and fix the navbar to link to the pages we actually have - this should probably be done first to avoid conflicts when people do more later 
+-A history of Point of Sale systems/as much information about innovations to it as possible. This is likely one of the longer tasks, so ideally we'd have two people working on this, coordinating with each other because changes will all need to go to the same file
+-I'd like someone to separate the block of text that is the current project idea into separate sections, sort of divided how it is in the PDF - current status, changes that need to be made, how they could be put into place, ways to test and fix changes
+-projectprogress.html needs a table with information about our "14-week plan", go ahead and waffle if you need to. This will need constant updating as we do more and get to know how much needs to be done
+-Also, if any new programs will need to be learned to complete the project, projectprogress.html has a section for a list of needed programs and the functionality that is needed - this can probably become its own separate page if needed
